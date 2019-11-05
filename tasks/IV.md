@@ -7,6 +7,7 @@ Complete the chosen module using [Rust](https://www.rust-lang.org/) programming 
 * Follow [Rust](https://www.rust-lang.org/) language best practices. Prefer type-safe code as long as it doesn't dramatically increase compile time.
 * Implement proper error handling for the entire crate. For example, `assert` should not be used in most of the cases, instead use `Result` object as this will allow the caller to handle error in a graceful way.
 * Write automated tests. Desired automated test coverage is 100%. The coverage may be lower if there is a valid reason, however, the coverage must be at least 80%. Tests must pass.
+* Demonstrate that your crate implements the specification correctly.
 * Pass the linters and any other checks in `scripts/ci`. Do not ignore the Clippy lints, it is allowed to use even more restrictive linting profile.
 * Make a fork and a pull request if you need any changes to the provided type system. Your pull request will be merged once +1 every team approves it.
 * Make a fork and a pull request for your crate and improve the code according to the feedback on Github.
